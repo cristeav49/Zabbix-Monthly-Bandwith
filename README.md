@@ -3,7 +3,7 @@ In this repository you will find information that will help you to set up Zabbix
 
 # Zabbix Host modifications
 1) On the Zabbix Host install vnstat and bc packages
-#apt-get -y install vnstal bc
+#apt-get -y install vnstat bc
 
 2) Check if the vnstat start working and is collecting data:
 :#vnstat -u -i {interface name}
